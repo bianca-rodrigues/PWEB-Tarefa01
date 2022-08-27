@@ -7,40 +7,42 @@
     <title>Document</title>
     <style>
         .container{
+            display: flex;
             background-color: gray;
-            width: 20%;
-            height: 600px;
+            max-width: 30%;
             flex-direction: row;
             flex-wrap: wrap;
             padding: 10px;
         }
 
         .item-1{
-            background-color: aquamarine;
-            width: 90%;
-            height: auto;
-
+            background-color: greenyellow;
+            width: 100%;
         }
 
         .item-2{
             background-color: brown;
-            width: 40%;
-            height: 
+            width: 50%;
+        }
 
+        .item-3{
+            background-color: hotpink;
+            width: 50%;
+        }
 
+        .item-4{
+            background-color: brown;
+            width: 100%;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header class="item-1">
-            <div>1</div>
-        </header>
-
-        <footer class="item-1">
-            <div>4a</div>
-        </footer>
+        <div class="item-1">1</div>
+        <div class="class item-2">2</div>
+        <div class="class item-3">3</div>
+        <div class="class item-4">4a</div>
+        <div class="class item-4">4b</div>
     </div>
-    
 </body>
 </html>
