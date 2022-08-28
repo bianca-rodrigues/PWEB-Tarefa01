@@ -6,65 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container-1{
+        .container{
             display: flex;
             background-color: gray;
-            width: 50%;
-            max-height: 200px;
+            max-width: 600px;
+            max-height: 250px;
+            margin: auto;
             flex-direction: column;
             flex-wrap: wrap;
             padding: 15px;
-            margin: auto;
         }
-
         .item-1{
-            background-color: brown;
-            width: 40%;
+            background-color: red;
+            width: 38%;
             height: 200px;
+            margin-left: -3px;
         }
 
         .item-2{
-            background-color: aquamarine;
-            width: 60%;
-            height: 100px;
-        }
-
-        .container-2{
-            display: flex;
-            padding: 15px;
-            background-color: gray;
-            width: 30%;
-            height: 150px;
-            flex-direction: column;
-            flex-wrap: wrap;
-            margin-left: 45%;
-
+            background-color: green;
+            width: 62%;
+            height: 80px;
+            margin-left: 7px;
         }
 
         .item-3{
             background-color: hotpink;
-            width: 50%;
-            height: 100%;
-            margin: 5px;
+            width: 30%;
+            height: 110px;
+            margin-top: 10px;
+            margin-left: 7px;
         }
 
-        .item-4{
+        .item-4a{
             background-color: blueviolet;
-            width: 45%;
-            height: 40%;
-            margin: 7.5px;
+            width: 30%;
+            height: 51px;
+            margin-top: 90px;
+            margin-left: -180px;
         }
+
+        .item-4b{
+            background-color: blueviolet;
+            width: 30%;
+            height: 51px;
+            margin-top: 149px;
+            margin-left: -180px;
+        }
+
+        .justify-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffff;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        
     </style>
 </head>
 <body>
-    <div class="container-1">
-        <div class="item-1">1</div>
-        <div class="item-2">2</div>
-    </div>
-    <div class="container-2">
-        <div class="item-3">3</div>
-        <div class="item-4">4a</div>
-        <div class="item-4">4b</div>
+    <div class="container">
+        <div class="item-1 justify-content">1</div>
+        <div class="item-2 justify-content">2</div>
+        <div class="item-3 justify-content">3</div>
+        <div class="item-4a justify-content">4a</div>
+        <div class="item-4b justify-content">4b</div>
     </div>
 </body>
 </html>
