@@ -9,8 +9,9 @@
         .container{
             display: flex;
             background-color: gray;
-            max-width: 700px;
-            max-height: 100px;
+            max-width: 400px;
+            max-height: 200px;
+            margin: auto;
             flex-direction: column;
             flex-wrap: wrap;
             padding: 10px;
@@ -19,24 +20,63 @@
         .item-1{
             background-color: #5d386b;
             width: 50%;
-            height: 100px;
+            height: 192px;
         }
 
         .item-2{
             background-color: aquamarine;
-            width: 12%;
-            height: 25px;
-            margin-top: 10px;
+            width: 90px;
+            margin-bottom: 8px;
         }
+
+        .item-3{
+            background-color: green;
+            width: 90px;
+            margin-left: 20px;
+            margin-bottom: 8PX;
+        }
+
+        .height{
+            height: 92px;
+            margin-left: 1px;
+        }
+
+        .height-2{
+            height: 92px;
+            margin-left: 1px;
+        }
+
+        .container-2{
+            display: flex;
+            background-color: gray;
+            max-width: 400px;
+            max-height: 200px;
+            margin: auto;
+            flex-direction: column;
+            flex-wrap: wrap-reverse;
+            padding: 10px;
+        }
+
+        .margin{
+            margin-top: -18px;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
         <div class="item-1">1</div>
-        <div class="item-2">2</div>
-        <div class="item-2">3</div>
-        <div class="item-2">4</div>
-        <div class="item-2">5</div>
+        <div class="item-2 height">2</div>
+        <div class="item-2 height">3</div>
+        <div class="item-3 height-2">4</div>
+        <div class="item-3 height-2">5</div>
+    </div>
+    <div class="container-2">
+        <div class="item-1 margin">1</div>
+        <div class="item-2 height">2</div>
+        <div class="item-2 height">3</div>
+        <div class="item-3 height-2">4</div>
+        <div class="item-3 height-2">5</div>
     </div>
     
 </body>
