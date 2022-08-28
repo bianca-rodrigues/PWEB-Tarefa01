@@ -8,7 +8,7 @@
     <style>
         .container{
             display: flex;
-            background-color: gray;
+            background-color: #ffff;
             max-width: 400px;
             max-height: 200px;
             margin: auto;
@@ -19,64 +19,82 @@
 
         .item-1{
             background-color: #5d386b;
-            width: 50%;
+            width: 49%;
             height: 192px;
+            margin-right: 5px;
         }
 
         .item-2{
-            background-color: aquamarine;
-            width: 90px;
+            background-color: #93c7b1;
+            width: 92px;
             margin-bottom: 8px;
+            margin-left: 1px;
         }
 
         .item-3{
-            background-color: green;
-            width: 90px;
-            margin-left: 20px;
-            margin-bottom: 8PX;
+            background-color: #93c7b1;
+            width: 92px;
+            margin-bottom: 8px;
         }
 
         .height{
             height: 92px;
-            margin-left: 1px;
+            margin-left: -1px;
         }
 
         .height-2{
             height: 92px;
-            margin-left: 1px;
+            margin-left: 4px;
+            margin-right: -5px;
         }
 
         .container-2{
             display: flex;
-            background-color: gray;
+            background-color: #ffff;
             max-width: 400px;
             max-height: 200px;
             margin: auto;
+            margin-top: -18px;
             flex-direction: column;
             flex-wrap: wrap-reverse;
             padding: 10px;
         }
 
         .margin{
-            margin-top: -18px;
+            margin-right: -1px;
         }
+
+        .height-3{
+            height: 92px;
+            margin-right: 2px;
+        }
+
+        .height-4{
+            height: 92px;
+            margin-left: -7px;
+        }
+
+        .background-color{
+            background-color: #0ea6e9;
+        }
+
 
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="item-1">1</div>
-        <div class="item-2 height">2</div>
-        <div class="item-2 height">3</div>
-        <div class="item-3 height-2">4</div>
-        <div class="item-3 height-2">5</div>
+        <div class="item-1"></div>
+        <div class="item-2 height"></div>
+        <div class="item-2 height"></div>
+        <div class="item-3 height-2"></div>
+        <div class="item-3 height-2"></div>
     </div>
     <div class="container-2">
-        <div class="item-1 margin">1</div>
-        <div class="item-2 height">2</div>
-        <div class="item-2 height">3</div>
-        <div class="item-3 height-2">4</div>
-        <div class="item-3 height-2">5</div>
+        <div class="item-1 margin background-color"></div>
+        <div class="item-2 height-3"></div>
+        <div class="item-2 height-3"></div>
+        <div class="item-3 height-4"></div>
+        <div class="item-3 height-4"></div>
     </div>
     
 </body>
